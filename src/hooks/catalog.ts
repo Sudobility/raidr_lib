@@ -3,7 +3,7 @@
  * store in, a flat `CatalogResult` out. Only `CATALOG_PAGE_SIZE` and
  * `CatalogResult` are public; the two helpers are internal to `src/hooks`.
  */
-import type { PaginatedResponse } from '@sudobility/raidr_types';
+import type { PaginatedResponse } from '@sudobility/types';
 import {
   type CatalogKind,
   useCatalogFilterStore,
